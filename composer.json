@@ -1,0 +1,27 @@
+{
+  "name": "dejury/faker-food-names",
+  "description": "Creates (Dutch) Fake names to be used in Faker. Can be used to generate persons like: \"Pietje Pizza\", \"Barry Barbeque\", \"Steven Steengrill\"",
+  "type": "library",
+  "require": {
+    "php": "^7.4|^8.0",
+    "fakerphp/faker": "^1.14",
+    "illuminate/support": "^8.37"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Hafkamp",
+      "email": "jonathan@hafkamp.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dejury\\FakerFoodNames\\": "src/FakerFoodNames"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dejury\\FakerFoodNames\\": "src/FakerFoodNames"
+    }
+  }
+}
