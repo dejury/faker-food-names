@@ -26,6 +26,7 @@ class FoodName extends Base
         "Tom Pouce",
         "Vanice Vanillevla",
         "Wendy Wentelteef",
+        "Chef Jambek",
     ];
 
     /**
